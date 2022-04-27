@@ -5,7 +5,7 @@
   </head>
   <body>
    @include('includes.header')
-   @include('includes.search')
+
    @yield('content')
    {{-- @include('includes.footer') --}}
 
