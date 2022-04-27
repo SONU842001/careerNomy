@@ -7,7 +7,7 @@
    @include('includes.header')
 
    @yield('content')
-   {{-- @include('includes.footer') --}}
+   @include('includes.footer')
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
