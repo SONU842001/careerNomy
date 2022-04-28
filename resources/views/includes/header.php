@@ -17,9 +17,9 @@
 
          <div class="collapse navbar-collapse" id="myMenu">
              <!-- navbar-brand starts -->
-              <a class="navbar-brand" href="">
-                 <img src="" alt="">CareerNomy
-              </a>
+
+                 <h3><a href="#">career<span>Nomy</span></a></h3>
+
 
             <ul class="navbar-nav  ml-auto ">
 
