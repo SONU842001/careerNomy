@@ -5,11 +5,14 @@ body {
     background-color: #B0BEC5;
     background-repeat: no-repeat
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 /* header css starts */
 #myMenu h3 a{
     text-decoration: none;
     color:#a72885;
-    font: normal 36px Cookie, cursive;
+    font: normal 30px Cookie, cursive;
 }
 #myMenu h3 span{
     color:#5383d3; ;
@@ -287,4 +290,13 @@ div.social-links {
 .image-span{
     font-size: 15px;
     font-weight: 400;
+}
+
+/* job section starts  */
+
+.justify-content-center{
+    align-items: center;
+}
+#check{
+    top: 20px;
 }
