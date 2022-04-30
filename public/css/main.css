@@ -296,7 +296,70 @@ div.social-links {
 
 .justify-content-center{
     align-items: center;
+
 }
-#check{
-    top: 20px;
+.col-lg-4{
+    position: relative;
 }
+.card1{
+    position: relative;
+}
+.form-container{
+    border: 1px solid #EEE;
+    border-radius: 6px;
+    padding: 23px;
+    background: #fff;
+    width: 100%;
+}
+.filter-ui{
+margin-bottom: 16px;
+display: flex;
+justify-content: center;
+}
+.fa-filter{
+    color: #008BDC;
+    margin-right: 4px;
+    align-self: center;
+}
+.filter-ui h5{
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+    color: #484848;
+    align-self: center;
+}
+.checkbox-div{
+    clear: both;
+    margin-bottom: 16px;
+    position: relative;
+}
+.checkbox-div input[type=checkbox]{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+
+    top: 5px;
+    left: 0;
+    margin: 0;
+    border-radius: 3px!important;
+
+}
+.row label{
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 500;
+}
+.checkbox-div input[type=checkbox] + label{
+    color: #484848;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 500;
+}
+#row-id{
+    clear: both;
+    margin-bottom: 16px;
+}
+
