@@ -300,6 +300,7 @@ div.social-links {
 }
 .col-lg-4{
     position: relative;
+    height: auto;
 }
 .card1{
     position: relative;
@@ -428,15 +429,21 @@ a.clear-all{
 .inernship_details{
     margin-bottom: 8px;
 }
-#location-names i{
+#location_names{
+    line-height: 16px;
+    display: flex;
+    margin-bottom: 24px;
+}
+#location_names i{
   color: #8a8a8a;
-  margin-left: 4px;
+  margin-left: -2px;
   margin-top: 2px;
   font-size: 16px;
-  font-weight: 400;
+  margin-right: 4px;
   font-variant: normal;
   font-style: normal;
 }
+
 #location_names a{
     line-height: 22px;
     color: #333333;
@@ -444,5 +451,65 @@ a.clear-all{
     text-decoration: none;
     font-size: 14px;
     font-family: "inter var ",sans-serif;
+}
+.internship_other_details_containers{
+  display: flex;
+}
+
+.other_detail_item{
+    margin-right: 40px;
+}
+.item_heading{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    display: flex;
+    font-weight: 500px;
+}
+.item_heading i{
+    margin-right: 4px;
+}
+.item_body{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.button_container{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tag_container{
+    margin-top: 16px;
+}
+.label_container{
+    padding: 6px 12px;
+    background-color: #f8f8f8;
+    border-radius: 14px;
+    color: #666;
+    line-height: 16px;
+    margin-right: 8px;
+}
+.view_details{
+    margin-top: 16px;
+    align-self: center;
+    display: flex;
+    padding: 8px 0 8px 8px;
+    margin-left: auto;
+}
+
+.view_details i{
+   margin-left: 4px;
+   vertical-align: middle;
+   font-size: 16px;
+   padding-top: 5px;
+   text-transform: none;
+   line-height: 1;
+   font-style: none;
+}
+.view_details:hover{
+    text-decoration: none;
 }
 
