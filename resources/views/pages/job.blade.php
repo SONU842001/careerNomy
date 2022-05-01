@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row d-flex ">
                 <div class="col-lg-4">
-                     <div class="card card1 shadow-sm">
+                     <div class="card card1 px-4 shadow-sm mb-3" >
                          <div class="form-container">
                             <div class="row filter-ui">
                                 <h5><i class="fa fa-filter"></i>Filters</h5>
@@ -68,12 +68,47 @@
                                     <input class="checkbox"type="checkbox">
                                     <label for="">Internship with job offer</label>
                                 </div>
+                                <div >
+                                    <a class="float-right clear-all" href="">Clear all</a>
+                                </div>
                             </div>
                      </div>
                      </div>
                 </div>
                 <div class="col-lg-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate quam amet, nemo voluptatem neque perspiciatis tempore nisi, quod ipsam aliquam quisquam sed eaque obcaecati laboriosam, placeat dicta voluptatum! Non.
+                    <div class="card card2">
+                       <div class="content-container">
+                           <div class="content-header">
+                              <div class="company">
+                                  <div class="company-heading">
+                                      <a id="content-heading-id"href="">Fundraising & Event Sponsorships</a>
+                                  </div>
+                                  <div class="company-sub-heading">
+                                      <a href="">Omysha Foundation</a>
+                                  </div>
+                              </div>
+                              <div class="content-logo">
+                                  <img src="{{ asset('cover_photo/company_logo.png') }}"  alt="">
+                              </div>
+                           </div>
+                           <div class="internship_details">
+                               <div id="location_names">
+                                <i class="fas fa-home"></i>
+                                <span><a class="location_link" href="">Work From Home</a></span>
+                               </div>
+                               <div class="internship_other_details">
+                                   <div class="other_detail_items_row">
+                                      <div class="other_detail_items">
+                                          <div class="item_heading">
+                                            <i class="fas fa-play-circle"></i>
+                                            <span>Start Date</span>
+                                          </div>
+                                      </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
                 </div>
 
             </div>
