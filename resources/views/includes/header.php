@@ -53,8 +53,8 @@
                     </div>
                </li>
                <li class="nav-item">
-               <button class="btn btn-outline-success my-2 my-lg-0 mr-3" type="button">Login</button>
-               </li>
+               <button class="btn btn-outline-success my-2 my-lg-0 mr-3" type="button"><a href="{{ asset('userLogin') }}">Login</a></button>
+
                <li class="nav-item-dropdown d-lg-none d-none d-lg-block position-relative" >
                <button type="button" class=" dropdown-toggle btn btn-primary btn-md" data-toggle="dropdown">Register</button>
                <div class="dropdown-menu position-absolute" style="top: 56px; left:-45px">

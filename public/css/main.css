@@ -301,6 +301,8 @@ div.social-links {
 .col-lg-4{
     position: relative;
     height: auto;
+    width: 316px;
+    top: 0;
 }
 .card1{
     position: relative;

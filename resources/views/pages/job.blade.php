@@ -3,7 +3,7 @@
     <div class="container-fluid" style="padding-top: 48px; padding-left:16px; padding-right:16px;">
         <div class="container">
             <div class="row d-flex ">
-                <div class="col-lg-4 position-sticky">
+                <div class="col-lg-4 ">
                      <div class="card card1 px-4 shadow-sm mb-3" >
                          <div class="form-container">
                             <div class="row filter-ui">
